@@ -9,18 +9,18 @@
     background-position: 76% bottom;
     background-repeat: no-repeat;
 
-    @include m.tablet { 
-        background-position: bottom center;
-        padding: 6.2rem 16rem;
-    }
+    // @include m.tablet { 
+    //     background-position: bottom center;
+    //     padding: 6.2rem 16rem;
+    // }
 
-    @include m.tablet-xl{ 
-        padding: 10.2rem 3.9rem;
-    }
+    // @include m.tablet-xl{ 
+    //     padding: 10.2rem 3.9rem;
+    // }
 
-    @include m.desktop-xl { 
-        background-position: 44.2rem bottom;
-    }
+    // @include m.desktop-xl { 
+    //     background-position: 44.2rem bottom;
+    // }
 
     &__contenido {
         text-align: center;
@@ -39,9 +39,9 @@
         h2 {
             color: v.$white;
 
-            @include m.tablet-xl { 
-                width: 41rem;
-            }
+            // @include m.tablet-xl { 
+            //     width: 41rem;
+            // }
         }
     }
 
